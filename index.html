@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>GoatedBuy spreadsheet | Liens produits, tailles et photos QC</title>
+  <meta name="description" content="Guide en français du GoatedBuy spreadsheet : explorez dix catégories et comparez les liens produits, les tailles, les photos QC et les frais de livraison.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:title" content="GoatedBuy spreadsheet | Liens produits, tailles et photos QC">
+  <meta property="og:description" content="Dix catégories à explorer et des conseils pour vérifier une fiche produit, les mesures, les photos QC et le coût d’un colis.">
+  <meta name="theme-color" content="#f7f0e6">
+  <!-- Recherche éditoriale : la première page de Google n’a pas pu être vérifiée directement.
+       Dix domaines consultés via la recherche web : goated-buy.com, goatedbuysheet.net,
+       goatedbuyspreadsheet.net, qcradar.com, goatedbuyspreadsheets.com, goatedbuyindex.com,
+       mickeybuys.com, goatedbuysheet.com, goatedspreadsheet.com et swagfinds.com. -->
+  <style>
+    :root{color-scheme:light;--paper:#f7f0e6;--ink:#281c25;--muted:#63545c;--plum:#481e45;--rose:#f1dfdc;--line:#d9c9c3;--white:#fffaf5}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.65 system-ui,sans-serif}
+    .wrap{width:min(72rem,calc(100% - 2rem));margin-inline:auto}
+    a{color:var(--plum);text-underline-offset:.18em}
+    :focus-visible{outline:3px solid #944735;outline-offset:4px}
+    header{border-bottom:1px solid var(--line)}
+    header .wrap,footer .wrap{display:flex;align-items:center;justify-content:space-between;gap:.7rem 1rem;flex-wrap:wrap;padding-block:.85rem}
+    .brand{font-weight:800;text-decoration:none;overflow-wrap:anywhere}
+    .note,figcaption,footer{color:var(--muted);font-size:.9rem}
+    h1,h2,h3{line-height:1.13;margin:0 0 .65em}
+    h1,h2{font-family:Georgia,serif}
+    h1{font-size:clamp(2.65rem,7vw,5.65rem);letter-spacing:-.05em;margin-bottom:.24em;overflow-wrap:anywhere}
+    h2{font-size:clamp(1.8rem,4vw,2.65rem);letter-spacing:-.025em}
+    h3{font-size:1.1rem}
+    p{margin:0 0 .85rem}
+    .hero{display:grid;grid-template-columns:1.35fr 1fr;align-items:center;gap:clamp(1rem,4vw,4rem);padding-block:clamp(1.8rem,5vw,4rem)}
+    .intro{max-width:58ch;font-size:1.075rem}
+    .cta{display:inline-flex;align-items:center;min-height:44px;padding:.55rem .95rem;background:var(--plum);color:#fff;text-decoration:none;font-weight:700;border-radius:.4rem}
+    figure{margin:0}
+    img{display:block;width:100%;height:auto;background:#eee5df}
+    .hero img{aspect-ratio:4/3;object-fit:contain;border-radius:1rem;background:#fff}
+    figcaption{margin-top:.45rem}
+    section{margin-bottom:clamp(2.1rem,5vw,4rem)}
+    .categories ul,.gallery,.articles{display:grid;gap:.65rem;list-style:none;padding:0;margin:0}
+    .categories ul{grid-template-columns:repeat(auto-fit,minmax(10rem,1fr))}
+    .categories a{display:flex;align-items:center;min-height:48px;padding:.5rem .75rem;border:1px solid var(--line);background:var(--white);border-radius:.45rem;font-weight:650;text-decoration:none}
+    .categories a:hover{background:var(--rose);text-decoration:underline}
+    .gallery{grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem}
+    .gallery img{aspect-ratio:1;object-fit:contain;border:1px solid var(--line);border-radius:.65rem}
+    .articles{grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+    article{padding:1rem 1.15rem;border-top:4px solid var(--plum);background:var(--white)}
+    article p:last-child,details p:last-child{margin-bottom:0}
+    details{border-bottom:1px solid var(--line);padding:.65rem 0}
+    summary{font-weight:750;cursor:pointer;padding:.3rem 0}
+    details p{max-width:76ch;padding:.25rem 0 .45rem 1.2rem}
+    footer{background:var(--rose)}
+    @media(max-width:760px){.hero,.articles{grid-template-columns:1fr}.hero figure{max-width:27rem}.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:375px){.categories ul{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "name": "GoatedBuy spreadsheet | Liens produits, tailles et photos QC",
+        "inLanguage": "fr",
+        "description": "Guide en français du GoatedBuy spreadsheet : explorez dix catégories et comparez les liens produits, les tailles, les photos QC et les frais de livraison."
+      },
+      {
+        "@type": "FAQPage",
+        "inLanguage": "fr",
+        "mainEntity": [
+          {"@type":"Question","name":"Qu’est-ce qu’un GoatedBuy spreadsheet ?","acceptedAnswer":{"@type":"Answer","text":"C’est un tableau de repérage qui regroupe des liens produits et parfois des notes de taille ou des photos QC. La fiche du vendeur reste le point de départ pour vérifier la variante et la disponibilité."}},
+          {"@type":"Question","name":"Comment vérifier un lien produit Weidian ou Taobao ?","acceptedAnswer":{"@type":"Answer","text":"Ouvrez la fiche source et comparez le nom du vendeur, la référence, le coloris et la taille avec vos notes. Si le lien a expiré, recherchez la référence avant de retenir une autre fiche."}},
+          {"@type":"Question","name":"Les photos QC prouvent-elles l’authenticité ?","acceptedAnswer":{"@type":"Answer","text":"Une photo QC aide à examiner l’état visible, la variante et les finitions. Pour vérifier la provenance d’un article de marque, demandez un justificatif d’achat et vérifiez le vendeur."}},
+          {"@type":"Question","name":"Ce guide est-il officiel ou affilié à GoatedBuy ?","acceptedAnswer":{"@type":"Answer","text":"Ce guide est indépendant. Les liens de navigation mènent à HipoBuyFind et les photos de marque illustrent des types d’articles."}}
+        ]
+      }
+    ]
+  }
+  </script>
+<link rel="canonical" href="https://kakobuyfinds.github.io/wzoui/">
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="https://www.hipobuyfind.com">hipobuyfind.com</a>
+      <span class="note">Guide d’achat indépendant</span>
+    </div>
+  </header>
+  <main class="wrap">
+    <section class="hero" aria-labelledby="titre">
+      <div>
+        <h1 id="titre">GoatedBuy spreadsheet</h1>
+        <p class="intro">Un spreadsheet rassemble des liens produits pour préparer une sélection. Commencez par une catégorie, puis comparez la référence du vendeur, les mesures et les photos QC (contrôle qualité) avant de calculer le coût du colis.</p>
+        <a class="cta" href="https://www.hipobuyfind.com">Explorer le catalogue HipoBuyFind</a>
+      </div>
+      <figure>
+        <img src="https://www.tike.gr/files/images/products/media/CW2/CW2288-111/images/CW2288-111.jpg.webp" width="640" height="480" fetchpriority="high" alt="Basket Nike Air Force 1 ’07 blanche vue de profil">
+        <figcaption>Nike Air Force 1 ’07 · exemple pour comparer la forme et la semelle</figcaption>
+      </figure>
+    </section>
+    <section class="categories" aria-labelledby="categories">
+      <h2 id="categories">Parcourir les catégories</h2>
+      <nav aria-labelledby="categories">
+        <ul>
+          <li><a href="https://hipobuyfind.com/category-911-Shoes.html">Chaussures</a></li>
+          <li><a href="https://hipobuyfind.com/category-912-Hoodies%2FSweaters.html">Sweats et pulls</a></li>
+          <li><a href="https://hipobuyfind.com/category-913-T-Shirts.html">T-shirts</a></li>
+          <li><a href="https://hipobuyfind.com/category-914-Jackets.html">Vestes</a></li>
+          <li><a href="https://hipobuyfind.com/category-915-Pants%2FShorts.html">Pantalons et shorts</a></li>
+          <li><a href="https://hipobuyfind.com/category-916-Headwear.html">Casquettes et bonnets</a></li>
+          <li><a href="https://hipobuyfind.com/category-917-Sets.html">Ensembles</a></li>
+          <li><a href="https://hipobuyfind.com/category-918-underwear%2Funderpants.html">Sous-vêtements</a></li>
+          <li><a href="https://hipobuyfind.com/category-919-Jersey.html">Maillots</a></li>
+          <li><a href="https://hipobuyfind.com/category-920-Accessories.html">Accessoires</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section aria-labelledby="reperes">
+      <h2 id="reperes">Repères visuels</h2>
+      <div class="gallery">
+        <figure>
+          <img src="https://en.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-league-cap--M5412M_PM2_Front%20view.png?hei=490&amp;wid=490" width="490" height="490" loading="lazy" decoding="async" alt="Casquette beige Louis Vuitton LV League vue de face">
+          <figcaption>Louis Vuitton · casquette LV League</figcaption>
+        </figure>
+        <figure>
+          <img src="https://media.gucci.com/style/DarkGray_Center_0_0_980x980/1712820717/788090_XJGJ7_1043_003_100_0000_Light-Cotton-jersey-hooded-sweatshirt.jpg" width="980" height="980" loading="lazy" decoding="async" alt="Sweat à capuche noir Gucci porté avec un pantalon à motif GG">
+          <figcaption>Gucci · sweat en jersey de coton</figcaption>
+        </figure>
+        <figure>
+          <img src="https://a.1stdibscdn.com/hermes-clic-clac-h-orange-enamel-gold-plated-wide-bracelet-pm-for-sale/1121189/v_110677821607930666086/11067782_master.jpg?auto=webp&amp;disable=upscale&amp;quality=60&amp;width=480" width="480" height="480" loading="lazy" decoding="async" alt="Bracelet Hermès Clic Clac H en émail orange à finition dorée">
+          <figcaption>Hermès · bracelet Clic Clac H</figcaption>
+        </figure>
+        <figure>
+          <img src="https://shopping.c.yimg.jp/lib/garlandstore/dior-062_1.jpg" width="480" height="480" loading="lazy" decoding="async" alt="Collier Dior Petit CD doré">
+          <figcaption>Dior · collier Petit CD</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section aria-labelledby="guides">
+      <h2 id="guides">Du lien produit au colis</h2>
+      <div class="articles">
+        <article>
+          <h3>Liens produits GoatedBuy : vérifier la variante</h3>
+          <p>Dans un GoatedBuy spreadsheet, deux lignes peuvent pointer vers la même annonce Weidian, Taobao ou 1688. Gardez l’identifiant de la fiche, la référence du vendeur, le coloris exact et la date de vérification. Confirmez le stock par taille et la quantité minimale avant de comparer deux annonces.</p>
+          <p>Pour des baskets, comparez la longueur de la semelle intérieure en centimètres avec une paire qui vous va. Pour un sweat, mesurez à plat la largeur de poitrine, la longueur du dos et celle des manches. Pour une casquette, vérifiez le tour de tête et la plage de réglage.</p>
+        </article>
+        <article>
+          <h3>Photos QC GoatedBuy : demander le bon angle</h3>
+          <p>Sur une chaussure, une photo de profil montre la forme et une vue du dessous montre l’usure de la semelle. Demandez une photo de l’étiquette de taille si la pointure est difficile à lire.</p>
+          <p>Pour un vêtement, cherchez une photo des coutures, du col et des poignets. Pour un bracelet ou un collier, vérifiez le fermoir, la longueur portée et les rayures visibles. Si une mesure compte, demandez une photo prise avec un mètre dans le même plan.</p>
+        </article>
+        <article>
+          <h3>Livraison GoatedBuy vers la France : estimer le total</h3>
+          <p>Relevez le prix de l’article, les frais locaux, la conversion en euros et le transport international. Comparez les options d’envoi avec le poids réel et les dimensions du colis, qui peuvent modifier le poids facturé.</p>
+          <p>Avant de regrouper plusieurs articles, vérifiez les restrictions de la ligne d’expédition, le suivi, les conditions de retour et les frais d’importation applicables à votre destination. Notez la date de l’estimation pour comparer les offres sur la même base.</p>
+        </article>
+      </div>
+    </section>
+    <section aria-labelledby="faq">
+      <h2 id="faq">Questions fréquentes</h2>
+      <details open>
+        <summary>Qu’est-ce qu’un GoatedBuy spreadsheet ?</summary>
+        <p>C’est un tableau de repérage qui regroupe des liens produits et parfois des notes de taille ou des photos QC. La fiche du vendeur reste le point de départ pour vérifier la variante et la disponibilité.</p>
+      </details>
+      <details>
+        <summary>Comment vérifier un lien produit Weidian ou Taobao ?</summary>
+        <p>Ouvrez la fiche source et comparez le nom du vendeur, la référence, le coloris et la taille avec vos notes. Si le lien a expiré, recherchez la référence avant de retenir une autre fiche.</p>
+      </details>
+      <details>
+        <summary>Les photos QC prouvent-elles l’authenticité ?</summary>
+        <p>Une photo QC aide à examiner l’état visible, la variante et les finitions. Pour vérifier la provenance d’un article de marque, demandez un justificatif d’achat et vérifiez le vendeur.</p>
+      </details>
+      <details>
+        <summary>Ce guide est-il officiel ou affilié à GoatedBuy ?</summary>
+        <p>Ce guide est indépendant. Les liens de navigation mènent à HipoBuyFind et les photos de marque illustrent des types d’articles.</p>
+      </details>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap">
+      <a class="brand" href="https://www.hipobuyfind.com">hipobuyfind.com</a>
+      <span>Photographies présentées à titre d’illustration.</span>
+    </div>
+  </footer>
+</body>
+</html>
